@@ -25,14 +25,24 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
-    React JS is...
+    
+    React JS is technically a User Interface library. The problem it's trying to solve is making interactive UI's as painless as possible, both for the developer and the browser running the program. The React JS website has extensive documentation and they describe React as: 'React is a declarative, efficient, and flexible Javascript library for building user interfaces.' In  previous projects during this intro week to React, we were taught that we can break our webpages or apps into smaller peices, calling each one a component. It is much easier to organize our code when each peice of your program is broken up into smaller peices. This is one of the main ways in which React aids developers.
+
 - [ ] What does it mean to _think_ in react?
+
+    React wants you to break everything down into seperate components and identify any data that uses state. The example documentation on their webpage about this very question does just that. Any data shown on a page can be compartmentalized and each compartment is it's own component. This way when we want to make our components interactive for the user, we can just go to the file that represents them and make our changes there, then import that component into whatever js file it's needed in to use in your app.
 
 - [ ] Describe state.
 
+    State is the information that the system remembers that is supplied by user interaction with the app. State is a way to keep track of the 'state' of a component based on preceding user interactions or events. Basically, the data being rendered can look one way depending on an initial state but then can be changed and look a different way after an event or user input. State is used to save that change. State is used for mutable data, in other words: data that will change.
+
 - [ ] Describe props.
 
+    Props are customizable component creation parameters. The term is short for 'properties.' Props are used to pass information to a component. Props are also used to pass data from parent to child. One of the most important things about props is that they are immutable, meaning they cannot be changed.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    Side effects occur when a procedure changes a variable from outside it's scope. Functions have a side effect if they modify some state variable values outside their local environment.
 
 ## Project Set Up
 
